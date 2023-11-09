@@ -11,6 +11,7 @@ import Container from "./components/Container";
 import PerfilDeUsuario from "./components/PerfilDeUsuario";
 import CalculoPesado from "./components/CalculoPesado";
 import Exercises from "./components/Exercises";
+import ContadorCallback from "./components/ContadorCallback";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
       <PerfilDeUsuario usuarioId={1} />
       {/* 8.7 Performance e Hooks: useMemo e useCallback */}
       <CalculoPesado numero={5} />
+      <ContadorCallback />
       {/* 8.8 Exercícios */}
       <Exercises />
     </>

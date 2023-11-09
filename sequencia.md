@@ -76,3 +76,7 @@ Suponha que você tenha um componente que realiza um cálculo pesado, como uma f
 
 Enunciado:
 Crie um custom hook chamado useOnlineStatus que rastreia se o usuário está online ou offline. Use este hook em um componente para exibir o status atual do usuário.
+
+# 9 - Curso Desafios de React
+
+# 10 - Projeto 1 - To do List
