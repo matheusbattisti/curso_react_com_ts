@@ -45,39 +45,42 @@ const App = () => {
   return (
     <BrowserRouter>
       <nav>
-        <Link to="/">Catálogo</Link> |<Link to="/cart">Carrinho</Link>
+        <Link to="/">Catálogo</Link>
+        <Link to="/cart">Carrinho</Link>
       </nav>
-      <Routes>
-        <Route path="/" element={<Catalog onAddToCart={handleAddToCart} />} />
-        <Route
-          path="/cart"
-          element={
-            <Cart
-              cartItems={cartItems}
-              setCartItems={setCartItems}
-              onUpdateCart={handleUpdateCart}
-              onRemoveFromCart={handleRemoveFromCart}
-              onCheckout={() => {
-                if (cartItems.length > 0) {
-                  toast.success("Compra finalizada com sucesso!");
-                  setCartItems([]);
-                } else {
-                  toast.error("Seu carrinho está vazio.");
-                }
-              }}
-            />
-          }
-        />
-        <Route
-          path="/thank-you"
-          element={
-            <ThankYouPage
-              cartItems={cartItems}
-              clearCart={() => setCartItems([])}
-            />
-          }
-        />
-      </Routes>
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<Catalog onAddToCart={handleAddToCart} />} />
+          <Route
+            path="/cart"
+            element={
+              <Cart
+                cartItems={cartItems}
+                setCartItems={setCartItems}
+                onUpdateCart={handleUpdateCart}
+                onRemoveFromCart={handleRemoveFromCart}
+                onCheckout={() => {
+                  if (cartItems.length > 0) {
+                    toast.success("Compra finalizada com sucesso!");
+                    setCartItems([]);
+                  } else {
+                    toast.error("Seu carrinho está vazio.");
+                  }
+                }}
+              />
+            }
+          />
+          <Route
+            path="/thank-you"
+            element={
+              <ThankYouPage
+                cartItems={cartItems}
+                clearCart={() => setCartItems([])}
+              />
+            }
+          />
+        </Routes>
+      </div>
       <ToastContainer
         position="top-center"
         autoClose={3000}

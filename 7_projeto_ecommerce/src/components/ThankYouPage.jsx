@@ -1,10 +1,12 @@
 import React, { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 
-const ThankYouPage = ({ cartItems, clearCart }) => {
-  const items = cartItems;
-
+const ThankYouPage = ({ clearCart }) => {
   const navigate = useNavigate();
+  const location = useLocation();
+  // Extrair cartItems do estado do roteador
+  const items = location.state?.cartItems ?? [];
+
   const totalPrice = items.reduce(
     (total, item) => total + item.price * item.quantity,
     0
@@ -12,11 +14,12 @@ const ThankYouPage = ({ cartItems, clearCart }) => {
 
   // Limpa o carrinho quando a página é montada
   useEffect(() => {
-    clearCart();
-  }, []);
+    // A função clearCart será chamada apenas quando a página é desmontada
+    return () => clearCart();
+  }, [clearCart]);
 
   return (
-    <div>
+    <div className="thank-you-page">
       <h1>Obrigado por sua compra!</h1>
       <p>Seu pedido foi concluído com sucesso.</p>
       <ul>

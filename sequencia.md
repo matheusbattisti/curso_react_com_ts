@@ -106,3 +106,13 @@ Crie um custom hook chamado useOnlineStatus que rastreia se o usuário está onl
 # 16 - Projeto Ecommerce
 
 # 17 - Curso de Projetos React
+
+# 18 - Discord
+
+# 19 - Ebook gratuito dos principais conceitos
+
+# 20 - Página de cursos
+
+# 21 - Ebooks
+
+# 22 - Fechamento

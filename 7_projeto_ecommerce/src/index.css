@@ -21,11 +21,14 @@ nav a:hover {
   text-decoration: underline;
 }
 
+.container {
+  padding: 20px;
+}
+
 .product-container {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
-  margin: 20px;
 }
 
 .product,
@@ -35,11 +38,15 @@ nav a:hover {
   margin-bottom: 10px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
 }
 
 .product img {
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 200px;
+  max-height: 200px;
   object-fit: contain;
   margin-right: 20px;
 }
@@ -49,14 +56,15 @@ nav a:hover {
   margin-top: 0;
 }
 
-.product select,
-.cart-item select {
-  margin-right: 10px;
+.cart-buttons {
+  display: flex;
+  gap: 10px;
 }
 
 .product button,
 .cart-item button,
-.total button {
+.total button,
+.thank-you-page button {
   background-color: #5cb85c;
   color: white;
   border: none;
@@ -67,7 +75,8 @@ nav a:hover {
 
 .product button:hover,
 .cart-item button:hover,
-.total button:hover {
+.total button:hover,
+.thank-you-page button:hover {
   background-color: #4cae4c;
 }
 
