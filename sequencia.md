@@ -80,3 +80,29 @@ Crie um custom hook chamado useOnlineStatus que rastreia se o usuário está onl
 # 9 - Curso Desafios de React
 
 # 10 - Projeto 1 - To do List
+
+# 11 - Curso de Projetos
+
+# 12 - React Router
+
+- 12.1 Setup e configuração inicial
+- 12.2 NavLink
+- 12.3 useNavigate
+- 12.4 Roteamento dinâmico
+- 12.5 Rotas aninhadas
+- 12.6 404
+
+# 13 - Discord
+
+# 14 - Página de cursos
+
+# 15 - React com API
+
+- 15.1 GET com Axios e Fetch
+- 15.2 POST, PUT e DELETE
+- 15.3 Tratando erros
+- 15.4 Hook para requisições
+
+# 16 - Projeto Ecommerce
+
+# 17 - Curso de Projetos React
