@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist", // Diretório de saída para arquivos .js
+    "noImplicitAny": true, // Ativa erro para expressões e declarações com tipo 'any' implícito
+    "module": "commonjs", // Define o sistema de módulos
+    "target": "es6" // Define o alvo de saída do ECMAScript
+  },
+  "include": ["src/**/*"], // Arquivos a serem incluídos na compilação
+  "exclude": ["node_modules"] // Arquivos a serem excluídos da compilação
+}
