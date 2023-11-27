@@ -1,0 +1,22 @@
+
+Exercício 1: Trabalhando com Interfaces
+
+Enunciado:
+Defina uma interface Vehicle que represente um veículo, com propriedades para make (marca), model (modelo) e year (ano). 
+Crie uma função que aceite um Vehicle como argumento e imprima uma descrição do veículo.
+
+---
+
+Exercício 2: Genéricos em Funções
+
+Enunciado:
+Crie uma função genérica firstElement que retorne o primeiro item de um array. 
+A função deve ser capaz de trabalhar com qualquer tipo de dado.
+
+---
+
+Exercício 3: Uso de Readonly e Partial
+
+Enunciado:
+Dado o tipo Product abaixo, crie uma função freezeProduct que torne um produto imutável. 
+Em seguida, crie outra função updateProductPrice que atualize apenas o preço de um produto, demonstrando o uso de Partial.

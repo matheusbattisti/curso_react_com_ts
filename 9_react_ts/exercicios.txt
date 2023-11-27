@@ -1,0 +1,19 @@
+Exercício 1: Tipagem de Formulário com Estado e Eventos
+
+Enunciado:
+Crie um componente FormularioLogin com campos para nome de usuário e senha. 
+O componente deve utilizar o estado para armazenar os valores dos campos e lidar com a 
+submissão do formulário exibindo um alerta com o nome de usuário e senha inseridos.
+
+Exercício 2: Lista Dinâmica com Estado e Props
+
+Enunciado:
+Crie um componente ListaDeCompras que permita adicionar itens a uma lista de compras. 
+O componente deve conter um input para inserir o nome do item e um botão para adicionar o item à lista.
+A lista de itens deve ser renderizada abaixo do formulário de adição.
+
+Exercício 3: Hook Customizado para Armazenar no Local Storage
+
+Enunciado:
+Crie um hook customizado useLocalStorage que permita armazenar e recuperar um valor do local storage do navegador. 
+O hook deve aceitar uma chave de local storage e o valor inicial.

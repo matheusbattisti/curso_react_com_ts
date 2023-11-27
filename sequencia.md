@@ -92,12 +92,27 @@ Crie um custom hook chamado useOnlineStatus que rastreia se o usuário está onl
 
 # 17 - Curso de Projetos React
 
-# 18 - Discord
+# 18 - TypeScript
 
-# 19 - Ebook gratuito dos principais conceitos
+- 18.1 Instalação - npm install -g typescript
+- 18.2 Compilação de arquivo - tsc src/hello.ts --outDir dist
+- 18.3 Arquivo de configuração e compilação automatica - tsc --watch
+- 18.4 Tipos
+- 18.5 Interfaces
+- 18.6 Generics
+- 18.7 Exercícios
 
-# 20 - Página de cursos
+# 19 - TS com React
 
-# 21 - Ebooks
+- 19.1 - Setup do projeto
+- 19.2 - Componentes funcionais com TS
 
-# 22 - Fechamento (YT/UD)
+# 20 - Discord
+
+# 21 - Ebook gratuito dos principais conceitos
+
+# 22 - Página de cursos
+
+# 23 - Ebooks
+
+# 24 - Fechamento
