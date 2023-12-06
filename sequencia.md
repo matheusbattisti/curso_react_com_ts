@@ -106,13 +106,23 @@ Crie um custom hook chamado useOnlineStatus que rastreia se o usuário está onl
 
 - 19.1 - Setup do projeto
 - 19.2 - Componentes funcionais com TS
+- 19.3 - Hooks com tipos
+- 19.4 - Custom hook com TS
+- 19.5 - Exercícios
+- 19.6 - useReducer com TS
+- 19.7 - Context API com TS
+- 19.8 - Axios com TS
 
-# 20 - Discord
+# 20 - Curso projetos React e JS
 
-# 21 - Ebook gratuito dos principais conceitos
+# 21 - Projeto Churrascometro
 
-# 22 - Página de cursos
+# 22 - Discord
 
-# 23 - Ebooks
+# 23 - Ebook gratuito dos principais conceitos
 
-# 24 - Fechamento
+# 24 - Página de cursos
+
+# 25 - Ebooks
+
+# 26 - Fechamento

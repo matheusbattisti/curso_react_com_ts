@@ -4,6 +4,7 @@ import Contador from "./components/Contador";
 import ContadorIntervalo from "./components/ContadorIntervalo";
 import Counter from "./components/Counter";
 import Exercicios from "./components/Exercicios";
+import ExibirPostagens from "./components/ExibirPostagem";
 import Greeting from "./components/Greeting";
 import TextInput from "./components/TextInput";
 import { TemaProvider } from "./context/TemaContext";
@@ -30,6 +31,8 @@ function App() {
           {/* Outros componentes que consomem o contexto TemaContext também viriam aqui */}
         </div>
       </TemaProvider>
+      {/* 8 - Axios com TS */}
+      <ExibirPostagens />
     </>
   );
 }

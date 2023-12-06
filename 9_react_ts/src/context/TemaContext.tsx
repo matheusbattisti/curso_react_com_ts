@@ -1,18 +1,21 @@
-import React, { createContext, useState, ReactNode } from "react";
+import { createContext, useState, ReactNode } from "react";
 
-// Definindo o tipo para o contexto do tema
+// Definindo o tipo para o estado do tema
 type Tema = "claro" | "escuro";
-type TemaContexto = {
+
+// Definindo a interface para o contexto do tema
+interface TemaContexto {
   tema: Tema;
   alternarTema: () => void;
-};
+}
 
 // Criando o contexto com um valor padrão
-export const TemaContext = createContext<TemaContexto | undefined>(undefined);
+export const TemaContext = createContext<TemaContexto | null>(null);
 
-type TemaProviderProps = {
-  children: ReactNode;
-};
+// Definindo as props do provedor de tema
+interface TemaProviderProps {
+  children?: ReactNode;
+}
 
 // Componente provedor que envolve o aplicativo
 export const TemaProvider = ({ children }: TemaProviderProps) => {

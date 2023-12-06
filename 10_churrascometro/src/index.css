@@ -1,0 +1,28 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+h1 {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.page-container {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  padding: 20px;
+  backdrop-filter: blur(5px);
+}
