@@ -1,0 +1,82 @@
+/* Reset some default styles */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f0f0f0;
+  font-family: Helvetica, sans-serif;
+  padding-block: 30px;
+}
+
+h1,
+p {
+  text-align: center;
+  color: #202020;
+}
+
+h1 {
+  margin-top: 10px;
+}
+
+/* Center the game on the screen */
+.game {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Style the board */
+.board {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  gap: 10px;
+}
+
+/* Style each card */
+.card {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 5px;
+}
+
+/* Add a flipped class to flipped cards */
+.card.flipped {
+  background-color: #fff;
+  color: #3498db;
+}
+
+/* Add some hover effect */
+.card:hover {
+  background-color: #2980b9;
+  color: #fff;
+}
+
+.btn {
+  width: 350px;
+  background-color: #3498db;
+  color: #fff;
+  font-weight: bold;
+  padding-block: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
